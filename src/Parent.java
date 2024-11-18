@@ -22,6 +22,7 @@ abstract class Parent {
     }
 
     public Parent(String name) {
+        this.name = name;
         System.out.println("Parent:name-constructor");
         //System.out.printf("Parent:%s-constructor", name);
     }
