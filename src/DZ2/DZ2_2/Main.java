@@ -9,7 +9,6 @@ public class Main {
         TelephoneBook telephoneBook = new TelephoneBook();
 
         telephoneBook.add("John", "12345");
-        telephoneBook.add("John", "12345");
         telephoneBook.add("John", List.of("567", "293"));
         telephoneBook.add("John", List.of("567", "293"));
 
