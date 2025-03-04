@@ -13,13 +13,14 @@ public class Main {
         arr.add(5);
         arr.add(20);
         arr.add(5);
-        arr.add(5);
 
         arr3.add(5);
         arr4.add(30);
         arr2.add(10);
 
-        System.out.println("добавление элементов и коллекции, 10 добавляется в 5 20 5 5");
+        System.out.println("Дана исходная коллекция");
+        System.out.println("добавление в коллекцию 5 20 5, сначала элемент 5, потом список из одного элемента 10");
+        CollectionUtils.add(arr, 5);
         CollectionUtils.addAll(arr2, arr);
         System.out.println(arr);
 
@@ -36,7 +37,7 @@ public class Main {
 
         System.out.println("проверка на наличие элементов");
         System.out.println("Все элементы из набора 20 10 в наборе 10 " + CollectionUtils.containsAll(arr, arr2));
-        System.out.println("Любой элемент из наборы 20 10 в наборе 10 " + CollectionUtils.containsAny(arr2, arr));
+        System.out.println("Любой элемент из набора 20 10 в наборе 10 " + CollectionUtils.containsAny(arr2, arr));
 
         List<Integer> arr5 = CollectionUtils.newArrayList();
         arr5.add(1);
