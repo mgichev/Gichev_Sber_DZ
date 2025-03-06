@@ -1,6 +1,6 @@
-package DZ4.UI;
+package DZ4.DZ4_1.UI;
 
-import DZ4.Terminal.TerminalImpl;
+import DZ4.DZ4_1.Terminal.TerminalImpl;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class TerminalUI {
             double balance = terminal.checkBillState();
             System.out.println("На счету " + balance);
         } catch (RuntimeException re) {
-            System.out.println(re.getMessage());
+            ExceptionsUI.showException(re);
         }
     }
 
@@ -30,7 +30,7 @@ public class TerminalUI {
             double balance = terminal.addMoney(money);
             System.out.println("На счету " + balance);
         } catch (RuntimeException re) {
-
+            ExceptionsUI.showException(re);
         }
     }
 
@@ -41,7 +41,7 @@ public class TerminalUI {
             double balance = terminal.getMoney(money);
             System.out.println("На счету " + balance);
         } catch (RuntimeException re) {
-
+            ExceptionsUI.showException(re);
         }
     }
 }

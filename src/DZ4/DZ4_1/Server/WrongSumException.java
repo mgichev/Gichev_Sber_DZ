@@ -1,4 +1,4 @@
-package DZ4.Server;
+package DZ4.DZ4_1.Server;
 
 public class WrongSumException extends RuntimeException {
 

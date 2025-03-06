@@ -1,7 +1,7 @@
-package DZ4.Terminal;
+package DZ4.DZ4_1.Terminal;
 
-import DZ4.Server.TerminalServer;
-import DZ4.Validator.PinValidator;
+import DZ4.DZ4_1.Server.TerminalServer;
+import DZ4.DZ4_1.Validator.PinValidator;
 
 import java.util.Scanner;
 

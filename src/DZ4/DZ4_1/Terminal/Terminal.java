@@ -1,4 +1,4 @@
-package DZ4.Terminal;
+package DZ4.DZ4_1.Terminal;
 
 public interface Terminal {
 

@@ -1,4 +1,4 @@
-package DZ4.Server;
+package DZ4.DZ4_1.Server;
 
 public class TerminalServer {
 
@@ -30,24 +30,24 @@ public class TerminalServer {
 
     private void checkSumDiv100(double sum) {
         if (sum % 100 != 0) {
-            throw new WrongSumException(WrongSumException.WrongSumExceptionState.SUM_NOT_DIV_BY_100);
+            throw new WrongSumException(DZ4.DZ4_1.Server.WrongSumException.WrongSumExceptionState.SUM_NOT_DIV_BY_100);
         }
 
     }
 
     private void checkIsSumMoreMoney(double sum) {
         if (sum > money) {
-            throw new WrongSumException(WrongSumException.WrongSumExceptionState.SUM_MORE_THAN_BILL);
+            throw new DZ4.DZ4_1.Server.WrongSumException(DZ4.DZ4_1.Server.WrongSumException.WrongSumExceptionState.SUM_MORE_THAN_BILL);
         }
     }
 
     private void checkValidValue(double sum) {
         if (sum < 0) {
-            throw new WrongSumException(WrongSumException.WrongSumExceptionState.SUM_IS_NEGATIVE);
+            throw new DZ4.DZ4_1.Server.WrongSumException(DZ4.DZ4_1.Server.WrongSumException.WrongSumExceptionState.SUM_IS_NEGATIVE);
         }
 
         if (sum > 1000000) {
-            throw new WrongSumException(WrongSumException.WrongSumExceptionState.SUM_MORE_THAN_MAX_VALUE);
+            throw new DZ4.DZ4_1.Server.WrongSumException(DZ4.DZ4_1.Server.WrongSumException.WrongSumExceptionState.SUM_MORE_THAN_MAX_VALUE);
         }
     }
 

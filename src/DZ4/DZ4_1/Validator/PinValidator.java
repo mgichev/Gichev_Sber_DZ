@@ -1,6 +1,6 @@
-package DZ4.Validator;
+package DZ4.DZ4_1.Validator;
 
-import DZ4.UI.ExceptionsUI;
+import DZ4.DZ4_1.UI.ExceptionsUI;
 
 import java.util.Arrays;
 import java.util.List;

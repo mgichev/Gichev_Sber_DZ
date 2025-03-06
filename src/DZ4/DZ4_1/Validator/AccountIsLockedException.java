@@ -1,4 +1,4 @@
-package DZ4.Validator;
+package DZ4.DZ4_1.Validator;
 
 public class AccountIsLockedException extends RuntimeException {
     private final double timeInSec;
