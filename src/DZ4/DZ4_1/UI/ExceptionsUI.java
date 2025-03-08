@@ -6,7 +6,7 @@ import DZ4.DZ4_1.Validator.AccountIsLockedException;
 import DZ4.DZ4_1.Validator.PinWrongInputException;
 
 public class ExceptionsUI {
-    public static void showException(Exception exception) {
+    public static void showException(RuntimeException exception) {
         switch (exception) {
             case WrongSumException ex -> System.out.printf("Неправильная сумма: %s\n", ex.getMessage());
             case PinWrongInputException ex -> System.out.printf("Ошибка при авторизации: %s\n", ex.getMessage());
